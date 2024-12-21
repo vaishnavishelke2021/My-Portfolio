@@ -19,7 +19,7 @@ const Hero = () => {
 
         {/* Heading */}
         <div className="mt-6 md:mt-8 md:pr-12 text-center md:text-left">
-          <h1 className="text-[28px] sm:text-[40px] lg:text-[52px] font-medium leading-[3.7rem]">
+          <h1 className="text-[28px] sm:text-[40px] lg:text-[52px] font-medium md:leading-[3.7rem]">
             I'm Vaishnavi Shelke, a Frontend Developer & occasional UI Designer.
             I love creating user-friendly websites with joyful designs.
           </h1>
