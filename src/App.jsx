@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 const App = () => {
   return (
@@ -7,6 +8,7 @@ const App = () => {
       {/* wrapper  */}
       <div className="bg-secondary rounded-[1.5rem] min-h-screen">
         <Navbar/>
+        <Hero/>
       </div>
     </div>
   );

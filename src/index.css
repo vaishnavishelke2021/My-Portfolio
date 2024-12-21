@@ -25,6 +25,9 @@ html {
 .Quicksand {
   font-family: "Quicksand", sans-serif;
 }
+.Manrope {
+  font-family: "Manrope", sans-serif;
+}
 
 ::selection {
   background-color: #020202;
