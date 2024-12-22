@@ -6,7 +6,7 @@ const ProjectCards = ({ items }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-5 gap-x-12">
       {projects.slice(0, items).map((project) => (
-        <Link key={project.id} to={project.link}>
+        <Link key={project.id} to={`/projects/${project.id}`}>
           <div className="h-[430px] rounded-2xl group overflow-hidden relative">
             <img
               src={project.img}
