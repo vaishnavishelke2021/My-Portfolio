@@ -1,25 +1,27 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
+import i1 from "../../public/mockups/byteup/byteup1.png";
+import i2 from "../../public/mockups/uraniumtracker/ut.png";
 
 const imageData = [
   {
     id: 1,
-    src: "https://framerusercontent.com/images/AGpBGSlAeiBe8absF2xAK8RBIA.jpeg?scale-down-to=512",
+    src: i1,
     alt: "Image 1",
   },
   {
     id: 2,
-    src: "https://framerusercontent.com/images/6prmhvfmhanjxVLvZZpcJn7WllA.webp?scale-down-to=1024",
+    src: i2,
     alt: "Image 2",
   },
   {
     id: 3,
-    src: "https://framerusercontent.com/images/AGpBGSlAeiBe8absF2xAK8RBIA.jpeg?scale-down-to=512",
+    src:i1,
     alt: "Image 3",
   },
   {
     id: 4,
-    src: "https://framerusercontent.com/images/6prmhvfmhanjxVLvZZpcJn7WllA.webp?scale-down-to=1024",
+    src: i2,
     alt: "Image 4",
   },
 ];
