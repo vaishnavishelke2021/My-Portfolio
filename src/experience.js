@@ -24,14 +24,14 @@ export const experiences = [
       "Responsibe for designing mobile app UI using figma for all products",
     ],
   },
-  {
-    id: 3,
-    date: "Jul 2023 - Aug 2023",
-    company: "Academor",
-    role: "Web Developer",
-    responsibilities: [
-      "Responsibe for building projects using HTML, Tailwind CSS and JavaScript",
-      "Collaborated with fellow interns and contributed to project repositories on GitHub",
-    ],
-  },
+  // {
+  //   id: 3,
+  //   date: "Jul 2023 - Aug 2023",
+  //   company: "Academor",
+  //   role: "Web Developer",
+  //   responsibilities: [
+  //     "Responsibe for building projects using HTML, Tailwind CSS and JavaScript",
+  //     "Collaborated with fellow interns and contributed to project repositories on GitHub",
+  //   ],
+  // },
 ];

@@ -7,7 +7,7 @@ const ExperienceCards = () => {
       {experiences.map((experience) => (
         <div
           key={experience.id}
-          className="pb-6 md:pb-9 flex flex-col md:flex-row md:space-x-16 border-b border-primary/10"
+          className="pb-6 md:pb- flex flex-col md:flex-row md:space-x-16 border-b border-primary/0"
         >
           {/* Date */}
           <div className="w-full md:w-1/6 mb-4 md:mb-0">
