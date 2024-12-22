@@ -73,7 +73,7 @@ const App = () => {
           </motion.div>
         </div>
       </div>
-      <div className="py-20 bg-primary text-secondary">
+      <div className="py-20 bg-primary">
         <Footer />
       </div>
     </Router>
