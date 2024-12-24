@@ -1,11 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { projects } from "../projects";
 
-const ProjectCards = ({ items }) => {
+const ProjectCards = ({ projects }) => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-5 gap-x-12">
-      {projects.slice(0, items).map((project) => (
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-12">
+      {projects.map((project) => (
         <Link key={project.id} to={`/projects/${project.id}`}>
           <div className="h-[430px] rounded-2xl group overflow-hidden relative">
             <img

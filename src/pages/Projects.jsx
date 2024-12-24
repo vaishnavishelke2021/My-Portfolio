@@ -1,7 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import ProjectsFilter from "../components/ProjectsFilter";
+import ProjectCards from "../components/ProjectCards";
+import { projects } from "../projects";
 
 const Projects = () => {
+  const [filteredCategory, setFilteredCategory] = useState("All");
+
+  const handleFilterChange = (category) => {
+    setFilteredCategory(category);
+  };
+
+  const filteredProjects =
+    filteredCategory === "All"
+      ? projects
+      : projects.filter((project) => project.category === filteredCategory);
+
   return (
     <div className="w-full md:w-[90%] mx-auto px-4 md:px-6">
       {/* heading  */}
@@ -17,8 +30,14 @@ const Projects = () => {
       </div>
 
       {/* filter  */}
-      <div className="mt-5">
-        <ProjectsFilter />
+      <div className="container mx-auto py-10 pb-28">
+        <ProjectsFilter onFilterChange={handleFilterChange} />
+        <div className="mt-10">
+          <ProjectCards
+            items={filteredProjects.length}
+            projects={filteredProjects}
+          />
+        </div>
       </div>
     </div>
   );
