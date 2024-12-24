@@ -25,9 +25,10 @@ const Resume = () => {
       </div>
 
       {/* resume  */}
-      <div className="bg-accent mt-20">
+      <div className="bg-accent mt-20 rounded-b-[1.8rem]">
         <ResumeSec />
       </div>
+      {/* <div className="py-1"></div> */}
     </div>
   );
 };

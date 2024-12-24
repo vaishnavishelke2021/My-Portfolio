@@ -204,6 +204,8 @@ const ResumeSec = () => {
           </ul>
         </div>
       </section>
+
+      
     </div>
   );
 };
