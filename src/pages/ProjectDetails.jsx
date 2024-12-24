@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { projects } from "../projects"; // import the projects array
 import { IoLogoGithub } from "react-icons/io";
@@ -10,7 +10,11 @@ const ProjectDetails = () => {
   // Find the project by its ID
   const project = projects.find((p) => p.id === parseInt(projectId));
 
-  // If the project is not found, show a message
+  // Scroll to the top whenever this page is loaded
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [projectId]);
+
   if (!project) {
     return <div>Project not found</div>;
   }
@@ -63,7 +67,6 @@ const ProjectDetails = () => {
           alt={project.title}
           className="w-full h-[550px] object-cover rounded-2xl mb-4"
         />
-        {/* Display more images if available */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-7 mt-7">
           {project.moreImages.map((img, index) => (
             <img

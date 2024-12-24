@@ -44,6 +44,7 @@ import Resume from "./pages/Resume";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import LoadingScreen from "./pages/LoadingScreen"; // Import loading screen
+import ProjectDetails from "./pages/ProjectDetails";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -80,6 +81,7 @@ const App = () => {
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/projects" element={<Projects />} />
+              <Route path="/projects/:projectId" element={<ProjectDetails />} />
               <Route path="/resume" element={<Resume />} />
             </Routes>
           </div>
