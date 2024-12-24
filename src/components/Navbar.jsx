@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import { motion } from "framer-motion";
 import { FiMenu, FiX } from "react-icons/fi";
 
@@ -20,34 +21,34 @@ const Navbar = () => {
       <nav className="p-5 md:p-8 px-4 md:px-16 border-b border-primary/10 flex items-center justify-between">
         {/* Logo */}
         <h1 className="text-[18px] Quicksand text-primary/90 font-medium hover:text-primary transition-all ease-in-out duration-200">
-          <a href="/">Vaishnavi Shelke</a>
+          <Link to="/">Vaishnavi Shelke</Link> {/* Use Link instead of <a> */}
         </h1>
 
         {/* Desktop Links */}
         <ul className="hidden md:flex gap-6 gap-x-8 text-[16px] text-primary/70 font-medium">
           <li>
-            <a
-              href="/projects"
+            <Link
+              to="/projects"
               className="hover:text-primary transition-all ease-in-out duration-200"
             >
               Projects
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/resume"
+            <Link
+              to="/resume"
               className="hover:text-primary transition-all ease-in-out duration-200"
             >
               Resume
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/about"
+            <Link
+              to="/about"
               className="hover:text-primary transition-all ease-in-out duration-200"
             >
               About me
-            </a>
+            </Link>
           </li>
         </ul>
 
@@ -79,27 +80,27 @@ const Navbar = () => {
           </button>
 
           {/* Menu Links */}
-          <a
-            href="/projects"
+          <Link
+            to="/projects"
             className="hover:text-primary transition-all ease-in-out duration-200 mb-5"
             onClick={handleToggleMenu}
           >
             Projects
-          </a>
-          <a
-            href="/resume"
+          </Link>
+          <Link
+            to="/resume"
             className="hover:text-primary transition-all ease-in-out duration-200 mb-5"
             onClick={handleToggleMenu}
           >
             Resume
-          </a>
-          <a
-            href="/about"
+          </Link>
+          <Link
+            to="/about"
             className="hover:text-primary transition-all ease-in-out duration-200 mb-5"
             onClick={handleToggleMenu}
           >
             About me
-          </a>
+          </Link>
         </motion.div>
       )}
     </div>
