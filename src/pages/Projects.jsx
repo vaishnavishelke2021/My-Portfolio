@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ProjectsFilter from "../components/ProjectsFilter";
 import ProjectCards from "../components/ProjectCards";
 import { projects } from "../projects";
+import ScrollToTop from "../components/ScrollToTop";
 
 const Projects = () => {
   const [filteredCategory, setFilteredCategory] = useState("All");
@@ -17,6 +18,7 @@ const Projects = () => {
 
   return (
     <div className="w-full md:w-[90%] mx-auto px-4 md:px-6">
+      <ScrollToTop/>
       {/* heading  */}
       <div className=" mt-12">
         <h1 className="text-3xl md:text-[54px] font-medium md:leading-[58px] mb-6 text-primary">

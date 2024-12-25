@@ -1,9 +1,22 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { RiLinkedinFill, RiGithubFill, RiMediumFill } from "react-icons/ri";
 import { TbBrandDribbbleFilled } from "react-icons/tb";
 
 const Footer = () => {
+  const location = useLocation();
+
+  const handleHomeClick = () => {
+    if (
+      location.pathname === "/" ||
+      location.pathname === "/projects" ||
+      location.pathname === "/about" ||
+      location.pathname === "/resume"
+    ) {
+      window.scrollTo(0, 0); // Scroll to top only if already on the Home page
+    }
+  };
+
   return (
     <div className="p-5 py-7 md:py-10 lg:px-16 xl:px-28 bg-">
       {/* Top Section */}
@@ -16,10 +29,11 @@ const Footer = () => {
         </div>
 
         {/* Navigation Links */}
-        <div className="w-full md:w-auto text-center md:text-left">
-          <ul className="flex flex-wrap justify-center md:justify-start space-x-6 md:space-x-8 text-secondary/70">
+        <div className="w-full md:w-auto text-center">
+          <ul className="flex flex-wrap justify-center md:justify-start gap-x-6 md:gap-x-8 text-secondary/70">
             <Link
               to="/"
+              onClick={handleHomeClick}
               className="hover:text-secondary transition-all duration-200 ease-in-out"
             >
               Home
