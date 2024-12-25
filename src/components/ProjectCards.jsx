@@ -15,6 +15,13 @@ const ProjectCards = ({ projects }) => {
             <h1 className="absolute top-4 right-4 text-sm bg-secondary text-primary px-3 py-1 rounded-full">
               {project.title}
             </h1>
+            {project.duration === "In Progress" && (
+              <div className="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center">
+                <span className="text-white text-lg font-bold">
+                  In Progress
+                </span>
+              </div>
+            )}
           </div>
         </Link>
       ))}

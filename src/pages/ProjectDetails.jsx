@@ -24,9 +24,13 @@ const ProjectDetails = () => {
       <h1 className="text-[26px] md:text-5xl font-medium text-primary mb-5 md:leading-[50px]">
         {project.heading}
       </h1>
+      <p className="text-[15px] text-primary/60 font-medium mb-3">
+        Duration: {project.duration}
+      </p>
       <p className=" text-[17px] md:text-lg text-primary/80 mb-6 ">
         {project.description}
       </p>
+
       {/* technologies  */}
       <div className="technologies mb-8">
         <ul className="flex space-x-2">
