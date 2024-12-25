@@ -5,7 +5,7 @@ import { IoArrowForwardCircle } from "react-icons/io5";
 
 const Blogcards = () => {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-9 gap-x-12">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 sm:gap-9 gap-x-12">
       {blogs.map((blog) => (
         <Link
           key={blog.id}

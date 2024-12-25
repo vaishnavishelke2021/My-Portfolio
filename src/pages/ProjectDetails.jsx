@@ -20,11 +20,13 @@ const ProjectDetails = () => {
   }
 
   return (
-    <div className="w-full px-3 md:-w-[75%] lg:w-[60%] mx-auto project-details-container p-10 py-14">
-      <h1 className="text-5xl font-medium text-primary mb-5 md:leading-[50px]">
+    <div className="w-full px-3 md:-w-[75%] lg:w-[60%] mx-auto project-details-container p-10 py-10 md:py-14">
+      <h1 className="text-[26px] md:text-5xl font-medium text-primary mb-5 md:leading-[50px]">
         {project.heading}
       </h1>
-      <p className="text-lg text-primary/80 mb-6 ">{project.description}</p>
+      <p className=" text-[17px] md:text-lg text-primary/80 mb-6 ">
+        {project.description}
+      </p>
       {/* technologies  */}
       <div className="technologies mb-8">
         <ul className="flex space-x-2">
@@ -65,7 +67,7 @@ const ProjectDetails = () => {
         <img
           src={project.img}
           alt={project.title}
-          className="w-full h-[550px] object-cover rounded-2xl mb-4"
+          className="w-full h-[270px] sm:h-[550px] object-cover rounded-2xl mb-4"
         />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-7 mt-7">
           {project.moreImages.map((img, index) => (
@@ -73,7 +75,7 @@ const ProjectDetails = () => {
               key={index}
               src={img}
               alt={`More image ${index + 1}`}
-              className="w-full h-[390px] object-cover rounded-xl mb-4"
+              className="w-full h-[290px] sm:h-[390px] object-cover rounded-xl mb-4"
             />
           ))}
         </div>

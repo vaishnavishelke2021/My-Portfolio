@@ -6,7 +6,7 @@ const ProjectCards = ({ projects }) => {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-12">
       {projects.map((project) => (
         <Link key={project.id} to={`/projects/${project.id}`}>
-          <div className="h-[430px] rounded-2xl group overflow-hidden relative">
+          <div className="h-[250px] sm:h-[430px] rounded-2xl group overflow-hidden relative">
             <img
               src={project.img}
               alt={project.title}
