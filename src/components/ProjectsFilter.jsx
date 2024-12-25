@@ -28,7 +28,7 @@ const ProjectsFilter = ({ onFilterChange }) => {
   };
 
   return (
-    <div className="flex space-x-7 border-b border-primary/15 w-full pb-2">
+    <div className="flex flex-wrap gap-3 md:space-x-7 border-b border-primary/15 w-full pb-2">
       {categories.map((category) => (
         <button
           key={category}
