@@ -1,8 +1,10 @@
-// import byteup1 from "../public/mockups/byteup/byteup1.png";
-// import byteup2 from "../public/mockups/byteup/byteup2.png";
 import byte1 from "./mockups/byteup/byte1.png";
 import ut1 from "./mockups/uraniumtracker/urnm1.png";
 import oClick1 from "./mockups/oneClickAgent/1click.png";
+import it1 from "./mockups/it1.png";
+import deepshape from "./mockups/deepshape.png";
+import tradetool from "./mockups/tradetool.png";
+import shreeram from "./mockups/shreeram.png";
 
 export const projects = [
   {
@@ -48,6 +50,66 @@ export const projects = [
       "I worked on developing a service-based startup website, focusing on modern aesthetics and interactive elements. Using React and Tailwind CSS, we created a responsive and user-friendly layout, integrating GSAP for smooth animations. My responsibilities included research on design, front-end development, and ensuring the site’s responsiveness. Throughout the project, my fellow intern and I collaborated using GitHub to efficiently manage the development process. Additionally, I leveraged ChatGPT to optimize the code, ensuring better efficiency and scalability.",
     moreImages: [],
     liveLink: "https://byte-up-ai.netlify.app/",
+    githubLink: "",
+  },
+  {
+    id: 5,
+    img: tradetool,
+    link: "/projects/byteup-ai",
+    title: "Internship",
+    category: "HTML/CSS/JS",
+    technologies: ["HTML", "Tailwind CSS"],
+    duration: "2 days",
+    heading: "Internship Project: TradeTool Workshop Landing Page",
+    description:
+      "Tradetool is a simple landing page for a trading workshop, built using HTML and Tailwind CSS. To ensure fast delivery, I used a couple of prebuilt sections and customized them to meet the project requirements.",
+    moreImages: [],
+    liveLink: "https://tradetool-vs.netlify.app/",
+    githubLink: "",
+  },
+  {
+    id: 6,
+    img: shreeram,
+    link: "/projects/byteup-ai",
+    title: "Internship",
+    category: "HTML/CSS/JS",
+    technologies: ["HTML", "Tailwind CSS", "JS"],
+    duration: "7 days",
+    heading: "Internship Project: Shree Ram Naturals",
+    description:
+      "An online store website for dehydrated products, built using HTML, Tailwind CSS, and JavaScript. I incorporated prebuilt sections and customized them to align with the store's theme, ensuring a cohesive and visually appealing design.",
+    moreImages: [],
+    liveLink: "https://store-vs.netlify.app/",
+    githubLink: "",
+  },
+  {
+    id: 4,
+    img: deepshape,
+    link: "/projects/byteup-ai",
+    title: "Internship",
+    category: "HTML/CSS/JS",
+    technologies: ["HTML", "CSS"],
+    duration: "3 days",
+    heading: "Internship Project: Deepshape Landing Page",
+    description:
+      "A simple landing page built using HTML and CSS. The design was crafted based on the client's feedback, ensuring it meets their specific needs and preferences.",
+    moreImages: [],
+    liveLink: "https://deepshape2.netlify.app/",
+    githubLink: "",
+  },
+  {
+    id: 3,
+    img: it1,
+    link: "/projects/byteup-ai",
+    title: "Internship",
+    category: "HTML/CSS/JS",
+    technologies: ["HTML", "CSS", "JS"],
+    duration: "10 days",
+    heading: "Internship Project: Big Swinging Insiders",
+    description:
+      "This project is created for tracking insider transactions within a company, created using HTML, CSS, and JavaScript. It was designed based on client requirements, focusing on responsiveness.",
+    moreImages: [],
+    liveLink: "https://it-v.netlify.app/",
     githubLink: "",
   },
 ];
