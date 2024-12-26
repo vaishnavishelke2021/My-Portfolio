@@ -8,8 +8,9 @@ import shreeram from "./mockups/shreeram.png";
 import filmbox from "./mockups/filmbox1.png";
 import passwordgenerator from "./mockups/passwordgenerator.png";
 import portfolio from "./mockups/portfolio.png";
-import wedlock from "./mockups/wedlock.png"
+import wedlock from "./mockups/wedlock.png";
 import techblog from "./mockups/techblog.png";
+import goyum from "./mockups/goyum.png";
 
 export const projects = [
   {
@@ -72,6 +73,22 @@ export const projects = [
     liveLink: "https://film-box-vs.netlify.app/",
     githubLink:
       "https://github.com/vaishnavishelke2021/React-Practice-Projects/tree/main/1_Movie_App/film-box",
+  },
+  {
+    id: 12,
+    img: goyum,
+    link: "/projects/byteup-ai",
+    title: "Personal",
+    category: "React/NextJS",
+    technologies: ["React", "Redux", "Tailwind CSS"],
+    duration: "15 days",
+    heading: "Personal Project: GoYum Restaurant Website",
+    description:
+      "I built a restaurant website named 'GoYum,' inspired by 'Swiggy,' while starting my journey with React. Following the Namaste React course by Akshay Saini, I implemented functionalities like search, filtering, Shimmer UI, and data fetching from APIs. This project also introduced me to key React concepts such as Redux, React Router DOM, and Context API, providing a solid foundation for advanced development.",
+    moreImages: [],
+    liveLink: "https://go-yum-restraunt.netlify.app/",
+    githubLink:
+      "https://github.com/vaishnavishelke2021/Restaurant-Website-NAMASTE-REACT-COURSE",
   },
   {
     id: 5,
@@ -178,7 +195,8 @@ export const projects = [
       "A matrimonial website built using HTML and Bootstrap as part of learning Bootstrap. The project features a minimum of three pages and uses Bootstrap cards to create a clean, organized, and responsive layout, offering a user-friendly interface.",
     moreImages: [],
     liveLink: "https://wedlock-matrimonysite-vs.netlify.app/",
-    githubLink: "https://github.com/vaishnavishelke2021/Module-3---Bootstrap-Mini-Project-1-",
+    githubLink:
+      "https://github.com/vaishnavishelke2021/Module-3---Bootstrap-Mini-Project-1-",
   },
   {
     id: 11,
@@ -193,6 +211,7 @@ export const projects = [
       "A tech blog website created using HTML and Bootstrap while learning the basics of Bootstrap. The website includes multiple pages with a focus on responsiveness, utilizing Bootstrap cards to display blog content in an organized way.",
     moreImages: [],
     liveLink: "https://techblog-blogsite-vs.netlify.app/",
-    githubLink: "https://github.com/vaishnavishelke2021/Module-3---Bootstrap-Mini-Project-2",
+    githubLink:
+      "https://github.com/vaishnavishelke2021/Module-3---Bootstrap-Mini-Project-2",
   },
 ];

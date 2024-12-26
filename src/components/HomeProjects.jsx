@@ -24,7 +24,7 @@ const HomeProjects = () => {
 
       {/* cards */}
       <div className="mt-8 pb-5">
-        <ProjectCards projects={projects.slice(1, 3)} />
+        <ProjectCards projects={projects.slice(0, 4)} />
       </div>
     </div>
   );
