@@ -1,4 +1,3 @@
-import React from "react";
 import Marquee from "react-fast-marquee";
 import i1 from "../mockups/byteup.png";
 import i2 from "../mockups/uranium.png";
@@ -6,7 +5,9 @@ import i3 from "../mockups/oneclick.png";
 import i4 from "../mockups/tradetool.png";
 import i5 from "../mockups/shreeram.png";
 import i6 from "../mockups/deepshape.png";
-import i7 from "../mockups/filmbox.png"
+import i7 from "../mockups/filmbox.png";
+import i8 from "../mockups/portfolio.png";
+import i9 from "../mockups/wedlock.png";
 
 const imageData = [
   {
@@ -42,6 +43,16 @@ const imageData = [
   {
     id: 7,
     src: i7,
+    alt: "Image 3",
+  },
+  {
+    id: 8,
+    src: i8,
+    alt: "Image 3",
+  },
+  {
+    id: 9,
+    src: i9,
     alt: "Image 3",
   },
 ];
