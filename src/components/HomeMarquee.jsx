@@ -1,8 +1,11 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
-import i1 from "../mockups/byteup/byte1.png";
-import i2 from "../mockups/uraniumtracker/urnm1.png";
-import i3 from "../mockups/oneClickAgent/1click.png";
+import i1 from "../mockups/byteup.png";
+import i2 from "../mockups/uranium.png";
+import i3 from "../mockups/oneclick.png";
+import i4 from "../mockups/tradetool.png";
+import i5 from "../mockups/shreeram.png";
+import i6 from "../mockups/deepshape.png";
 
 const imageData = [
   {
@@ -22,17 +25,17 @@ const imageData = [
   },
   {
     id: 4,
-    src: i1,
+    src: i4,
     alt: "Image 1",
   },
   {
     id: 5,
-    src: i2,
+    src: i5,
     alt: "Image 2",
   },
   {
     id: 6,
-    src: i3,
+    src: i6,
     alt: "Image 3",
   },
 ];
