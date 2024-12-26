@@ -6,6 +6,7 @@ import i3 from "../mockups/oneclick.png";
 import i4 from "../mockups/tradetool.png";
 import i5 from "../mockups/shreeram.png";
 import i6 from "../mockups/deepshape.png";
+import i7 from "../mockups/filmbox.png"
 
 const imageData = [
   {
@@ -36,6 +37,11 @@ const imageData = [
   {
     id: 6,
     src: i6,
+    alt: "Image 3",
+  },
+  {
+    id: 7,
+    src: i7,
     alt: "Image 3",
   },
 ];

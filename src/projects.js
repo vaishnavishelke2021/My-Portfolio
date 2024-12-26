@@ -5,6 +5,11 @@ import it1 from "./mockups/it1.png";
 import deepshape from "./mockups/deepshape.png";
 import tradetool from "./mockups/tradetool.png";
 import shreeram from "./mockups/shreeram.png";
+import filmbox from "./mockups/filmbox1.png";
+import passwordgenerator from "./mockups/passwordgenerator.png";
+import portfolio from "./mockups/portfolio.png";
+import wedlock from "./mockups/wedlock.png"
+import techblog from "./mockups/techblog.png";
 
 export const projects = [
   {
@@ -51,6 +56,22 @@ export const projects = [
     moreImages: [],
     liveLink: "https://byte-up-ai.netlify.app/",
     githubLink: "",
+  },
+  {
+    id: 7,
+    img: filmbox,
+    link: "/projects/byteup-ai",
+    title: "Personal",
+    category: "React/NextJS",
+    technologies: ["React", "Tailwind CSS", "Axios"],
+    duration: "10 days",
+    heading: "Personal Project: FilmBox",
+    description:
+      "FilmBox is a movie website built using React and Tailwind CSS as part of a course focused on learning the basics of React and responsive design. It leverages the IMDB dataset API to fetch movie data, with Axios handling the API requests. The project showcases a sleek and responsive interface for exploring movies seamlessly.",
+    moreImages: [],
+    liveLink: "https://film-box-vs.netlify.app/",
+    githubLink:
+      "https://github.com/vaishnavishelke2021/React-Practice-Projects/tree/main/1_Movie_App/film-box",
   },
   {
     id: 5,
@@ -111,5 +132,67 @@ export const projects = [
     moreImages: [],
     liveLink: "https://it-v.netlify.app/",
     githubLink: "",
+  },
+  {
+    id: 8,
+    img: passwordgenerator,
+    link: "/projects/byteup-ai",
+    title: "Personal",
+    category: "HTML/CSS/JS",
+    technologies: ["HTML", "CSS", "JS"],
+    duration: "2 days",
+    heading: "Personal Project: Password Generator",
+    description:
+      "A password generator implemented in HTML, CSS, and JavaScript. It creates secure passwords of custom length with a built-in strength indicator, ensuring users generate robust passwords for enhanced security.",
+    moreImages: [],
+    liveLink:
+      "https://password-generator-using-javascript.netlify.app/password_generator/idex",
+    githubLink:
+      "https://github.com/vaishnavishelke2021/Password_Generator_Project",
+  },
+  {
+    id: 9,
+    img: portfolio,
+    link: "/projects/byteup-ai",
+    title: "Personal",
+    category: "HTML/CSS/JS",
+    technologies: ["HTML", "Tailwind CSS"],
+    duration: "7 days",
+    heading: "Personal Project: My Portfolio",
+    description:
+      "A personal portfolio website showcasing my skills, projects, and experience. Built using HTML and Tailwind CSS, I focused on creating a unique design that stands out while ensuring it is fully responsive for an optimal user experience.",
+    moreImages: [],
+    liveLink: "https://vaishnavi-shelke.netlify.app/",
+    githubLink: "",
+  },
+  {
+    id: 10,
+    img: wedlock,
+    link: "/projects/byteup-ai",
+    title: "Personal",
+    category: "HTML/CSS/JS",
+    technologies: ["HTML", "Bootstrap"],
+    duration: "2 days",
+    heading: "Personal Project: Matrimony Web Page",
+    description:
+      "A matrimonial website built using HTML and Bootstrap as part of learning Bootstrap. The project features a minimum of three pages and uses Bootstrap cards to create a clean, organized, and responsive layout, offering a user-friendly interface.",
+    moreImages: [],
+    liveLink: "https://wedlock-matrimonysite-vs.netlify.app/",
+    githubLink: "https://github.com/vaishnavishelke2021/Module-3---Bootstrap-Mini-Project-1-",
+  },
+  {
+    id: 11,
+    img: techblog,
+    link: "/projects/byteup-ai",
+    title: "Personal",
+    category: "HTML/CSS/JS",
+    technologies: ["HTML", "Bootstrap"],
+    duration: "2 days",
+    heading: "Personal Project: Tech Blog Web Page",
+    description:
+      "A tech blog website created using HTML and Bootstrap while learning the basics of Bootstrap. The website includes multiple pages with a focus on responsiveness, utilizing Bootstrap cards to display blog content in an organized way.",
+    moreImages: [],
+    liveLink: "https://techblog-blogsite-vs.netlify.app/",
+    githubLink: "https://github.com/vaishnavishelke2021/Module-3---Bootstrap-Mini-Project-2",
   },
 ];
