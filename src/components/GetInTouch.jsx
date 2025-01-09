@@ -6,9 +6,10 @@ const GetInTouch = () => {
   const body = "Hello, I would like to get in touch regarding opportunities.";
 
   return (
-    <div className="w-full md:w-[80%] lg:w-[65%] p-5 py-9 md:py-20 lg:px-16 xl:px-28 mt-5 rounded-lg">
-      <h1 className="text-4xl w-[80%] md:text-5xl font-extrabold text-primary mb-4 md:leading-[50px]">
-        I'm Open to Work.{" "}
+    <div className="w-full md:w-[80%] lg:w-[75%] p-5 py-9 md:py-20 lg:px-16 xl:px-28 mt-5 rounded-lg">
+      <h1 className="text-4xl w-full md:text-5xl font-extrabold text-primary mb-4 md:leading-[54px]">
+        I am currently seeking new opportunities, open to both full-time roles
+        & freelance projects. <br />
         <span className="text-primary/40">Let's Get In Touch!</span>
       </h1>
       <p className="text-lg md:text-[17px] text-primary/80 mb-12 leading-relaxed">
