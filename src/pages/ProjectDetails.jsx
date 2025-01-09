@@ -33,7 +33,7 @@ const ProjectDetails = () => {
 
       {/* technologies  */}
       <div className="technologies mb-8">
-        <ul className="flex space-x-2">
+        <ul className="flex flex-wrap gap-2">
           {project.technologies.map((tech, index) => (
             <li
               key={index}
