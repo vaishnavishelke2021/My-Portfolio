@@ -41,3 +41,7 @@ html {
   background-clip: text;
   text-fill-color: transparent;
 }
+
+.no-scrollbar::-webkit-scrollbar {
+  width: 0;
+}
