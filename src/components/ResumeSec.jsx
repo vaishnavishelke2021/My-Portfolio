@@ -7,7 +7,7 @@ const ResumeSec = () => {
 
       {/* Education */}
       <section className="mt-2">
-        <h2 className="text-2xl md:text-3xl font-medium border-primary/5 border-b-2 pb-3 mb-3">
+        <h2 className="text-2xl md:text-3xl font-medium border-primary/10 border-b-2 pb-3 mb-3">
           Education
         </h2>
         <div className="mb-4">
@@ -21,29 +21,28 @@ const ResumeSec = () => {
         <div className="mt-3">
           <h3 className="font-semibold">Higher Secondary Certificate</h3>
           <p className=" text-[19px]">Maharashtra State Board</p>
-          <p className="text-base mt-1">2017 – 2019 | Percentage: 70.15</p>
+          <p className="text-base mt-1">2019 | Percentage: 70.15</p>
         </div>
       </section>
 
       {/* Skills */}
       <section className="mt-[4rem]">
-        <h2 className="text-2xl md:text-3xl font-medium border-primary/5 border-b-2 pb-3 mb-3">
+        <h2 className="text-2xl md:text-3xl font-medium border-primary/10 border-b-2 pb-3 mb-3">
           Skills
         </h2>
-        <p>
+        <p className="">
           <span className="font-semibold">Languages & Version Control:</span>{" "}
           HTML5, CSS3, JavaScript (ES6), Python (Basics), Git, GitHub
         </p>
-        <p className="mt-[6px]">
+        <p className="mt-[6px] text-[18px]">
           <span className="font-semibold">Frameworks/Libraries:</span> React.js,
-          NextJS, Redux, TailwindCSS, Bootstrap, GSAP, Node.js, Express, Prompt
-          Engineering, ChatGPT
+          Next.js, Redux, TailwindCSS, Bootstrap, GSAP, Node.js, Express
         </p>
-        <p className="mt-[6px]">
-          <span className="font-semibold">Backend & Databases:</span> SQL,
-          MongoDB (Atlas), CRUD Operations, Postman
+        <p className="mt-[6px] text-[18px]">
+          <span className="font-semibold">Backend & Databases: </span>
+          MongoDB, CRUD Operations, SQL, Postman
         </p>
-        <p className="mt-[6px]">
+        <p className="mt-[6px] text-[18px]">
           <span className="font-semibold">UI/UX Design:</span> Figma, Adobe XD,
           UI Designing, Wireframing, Prototyping, Canva
         </p>
@@ -51,14 +50,12 @@ const ResumeSec = () => {
 
       {/* Experience */}
       <section className="mt-[4rem]">
-        <h2 className="text-2xl md:text-3xl font-medium border-primary/5 border-b-2 pb-3 mb-3">
+        <h2 className="text-2xl md:text-3xl font-medium border-primary/10 border-b-2 pb-3 mb-3">
           Experience
         </h2>
         <div className="mb-9">
           <h3 className="font-semibold">ByteUp AI</h3>
-          <p className=" text-[19px]">
-            Frontend Development Intern & UI Designer
-          </p>
+          <p className=" text-[19px]">Frontend Developer</p>
           <p className="text-base mb-3">Aug 2024 – Present</p>
           <ul className="list-disc text-[18px] text-primary/90 pl-6">
             <li className="pl-2">
@@ -68,9 +65,9 @@ const ResumeSec = () => {
             </li>
             <li className="pl-2">
               Developed client websites using HTML, CSS, JavaScript, React,
-              Tailwind CSS, and GSAP for real-world projects. Built the
-              company’s website using React.js, ensuring responsive design and
-              smooth functionality.
+              Tailwind CSS, and GSAP for real-world projects with API
+              integration. Built the company’s website using React.js, ensuring
+              responsive design and smooth functionality.
             </li>
             <li className="pl-2">
               Conducted research and designed user interfaces for websites to
@@ -106,13 +103,42 @@ const ResumeSec = () => {
 
       {/* Projects */}
       <section className="mt-[4rem]">
-        <h2 className="text-2xl md:text-3xl font-medium border-primary/5 border-b-2 pb-3 mb-3">
+        <h2 className="text-2xl md:text-3xl font-medium border-primary/10 border-b-2 pb-3 mb-3">
           Projects
         </h2>
         <div className="mb-4">
           <h3 className="font-semibold">
+            Chatbot Product Website (One Click Agents) –{" "}
+            <a
+              href="https://www.oneclickagents.com/"
+              className="text-rose-500 text-base hover:underline"
+            >
+              Live Link
+            </a>
+          </h3>
+          <p className="text-[18px]">
+            Technologies: HTML5, Tailwind CSS, Next.js, Axios API Integration
+          </p>
+          <ul className="list-disc text-[18px] text-primary/90 pl-6 mt-2">
+            <li className="pl-2">
+              This project is currently in progress as part of my internship,
+              and my role involves developing the frontend using Next.js and
+              Tailwind CSS. My responsibilities include creating a responsive,
+              user-friendly interface.
+            </li>
+            <li className="pl-2">
+              I am also responsible for API integration and implementing SEO
+              optimizations to enhance visibility and performance.
+            </li>
+          </ul>
+        </div>
+        <div className="mb-4">
+          <h3 className="font-semibold">
             Movie Website (FilmBox) –{" "}
-            <a href="#" className="text-rose-500 text-base hover:underline">
+            <a
+              href="https://film-box-vs.netlify.app/"
+              className="text-rose-500 text-base hover:underline"
+            >
               Live Link
             </a>
           </h3>
@@ -133,10 +159,13 @@ const ResumeSec = () => {
             </li>
           </ul>
         </div>
-        <div>
+        {/* <div>
           <h3 className="font-semibold">
             Restaurant Website (Swiggy Inspired) –{" "}
-            <a href="#" className="text-rose-500 text-base hover:underline">
+            <a
+              href="https://github.com/vaishnavishelke2021/Restaurant-Website-NAMASTE-REACT-COURSE"
+              className="text-rose-500 text-base hover:underline"
+            >
               Live Link
             </a>
           </h3>
@@ -158,12 +187,12 @@ const ResumeSec = () => {
               interface for easy navigation.
             </li>
           </ul>
-        </div>
+        </div> */}
       </section>
 
       {/* Certifications */}
       <section className="mt-[4rem]">
-        <h2 className="text-2xl md:text-3xl font-medium border-primary/5 border-b-2 pb-3 mb-3">
+        <h2 className="text-2xl md:text-3xl font-medium border-primary/10 border-b-2 pb-3 mb-3">
           Others
         </h2>
         {/* certifications  */}
@@ -204,8 +233,6 @@ const ResumeSec = () => {
           </ul>
         </div>
       </section>
-
-      
     </div>
   );
 };
