@@ -359,7 +359,7 @@ const AboutCareerSoFar = () => {
   }, [isPlaying, nextMilestone]);
 
   return (
-    <div className="w-full max-w-4xl mx-auto py-16 px-4 pb-36">
+    <div className="w-full max-w-4xl mx-auto py-16 px-4 pb-28 sm:pb-36 ">
       <h2 className="text-3xl font-bold text-center mb-12">My Career So Far</h2>
       <div className="relative mt-14">
         <AnimatePresence mode="wait">
@@ -369,7 +369,7 @@ const AboutCareerSoFar = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -50 }}
             transition={{ duration: 1 }}
-            className="bg-white w-[85%] mx-auto  border-2 border-zinc-800  rounded-xl "
+            className="bg-white w-[95%] sm:w-[85%] mx-auto  border-2 border-zinc-800  rounded-xl "
           >
             <div className="p-6">
               <div className="flex justify-between items-center mb-4">
@@ -389,7 +389,7 @@ const AboutCareerSoFar = () => {
             </div>
           </motion.div>
         </AnimatePresence>
-        <div className="flex justify-between -mt-[6.5rem]">
+        <div className="hidden sm:flex justify-between -mt-[6.5rem]">
           <button
             className="p-2 px-[8px] rounded-full bg-zinc-800  text-gray-200 hover:bg-zinc-700 focus:outline-none focus:ring-0 focus:ring-gray-400"
             onClick={prevMilestone}

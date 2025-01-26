@@ -21,7 +21,7 @@ const About = () => {
         </p>
       </div>
 
-      <div className="bg-accent mt-20 rounded-b-[1.8rem]">
+      <div className="bg-accent mt-20 rounded-b-[1.8rem] -mb-10 sm:mb-0">
         <AboutCareerSoFar />
       </div>
     </div>
