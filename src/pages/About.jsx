@@ -15,9 +15,7 @@ const About = () => {
           Hi, I’m Vaishnavi a Frontend Developer with experience in UI designing
           and a passion for crafting beautiful, functional websites. I’m all
           about creating interactive experiences that feel seamless on any
-          device. Currently, I’m diving into real-world challenges through
-          internship projects using React and Next.js while exploring backend
-          development with Express and authentication strategies.
+          device. Currently, I’m diving into real-world challenges through projects using React and Next.js, while upskilling in AWS and DevOps to build more scalable and production-ready applications.
         </p>
       </div>
 

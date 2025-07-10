@@ -22,12 +22,11 @@ const Hero = () => {
           <h1 className="text-[28px] sm:text-[40px] lg:text-[52px] font-medium md:leading-[3.8rem] tracking-tight">
             I'm Vaishnavi Shelke, a Frontend Developer with foundations of UI
             Design. I love creating user-friendly websites with joyful designs.
+            {/* Currently expanding into AWS and DevOps to build more robust digital experiences. */}
           </h1>
 
           <p className="mt-7 text-primary text-[16px] sm:text-[18px] lg:text-[19px] leading-relaxed">
-            I create responsive websites that look great on any device. As a
-            passionate learner, I’m on a journey to master the MERN stack and
-            constantly improve my skills to deliver better digital experiences.
+            I craft responsive, accessible websites that work beautifully across all devices. Currently, I’m expanding my skills by learning the MERN stack, AWS, and DevOps, as part of my journey to deliver better, scalable, and production-ready digital experiences.
           </p>
         </div>
       </div>
