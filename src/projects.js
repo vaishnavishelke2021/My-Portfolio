@@ -20,7 +20,7 @@ export const projects = [
     title: "Internship",
     category: "React/NextJS",
     technologies: ["NextJS", "Axios", "Tailwind CSS", "Framer Motion"],
-    duration: "In Progress",
+    duration: "2 months",
     heading: "Intership Project: One Click Agents",
     description:
       "This project focuses on building a personalized chatbot solution that allows users to deploy chatbots tailored to their unique needs. The project is currently in progress, and my role involves developing the frontend using Next.js and Tailwind CSS. My responsibilities include creating a responsive, user-friendly interface, implementing real-time chatbot customization and preview features, and ensuring a clean and consistent design system.",

@@ -1,7 +1,17 @@
 export const experiences = [
   {
-    id: 1,
-    date: "Aug 2024 - Present",
+    id: 3,
+    date: "May 2025 - Present",
+    company: "EminentAI Labs",
+    role: "Frontend Developer",
+    responsibilities: [
+      "Currently working on developing a AI based product frontend using Ionic React",
+      "Working collaboratively on repositories with senior developers via GitHub",
+    ],
+  },
+  {
+    id: 2,
+    date: "Aug 2024 - April 2025",
     company: "ByteUp AI",
     role: "Frontend Developer",
     responsibilities: [
@@ -13,7 +23,7 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 1,
     date: "Feb 2022 - Jun 2024",
     company: "STSARC Private Limited",
     role: "Co-founder & UI/UX Designer",
