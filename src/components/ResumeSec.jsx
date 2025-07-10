@@ -42,6 +42,9 @@ const ResumeSec = () => {
           <span className="font-semibold">Backend & Databases: </span>
           MongoDB, CRUD Operations, SQL, Postman
         </p>
+         <p className="mt-[6px] text-[18px]">
+  <span className="font-semibold">DevOps & Cloud:</span> AWS (EC2), Docker & Compose, Kubernetes (Basic), Linux CLI, Deployment
+</p>
         <p className="mt-[6px] text-[18px]">
           <span className="font-semibold">UI/UX Design:</span> Figma, Adobe XD,
           UI Designing, Wireframing, Prototyping, Canva
