@@ -57,9 +57,21 @@ const ResumeSec = () => {
           Experience
         </h2>
         <div className="mb-9">
+          <h3 className="font-semibold">EminentAI Labs</h3>
+          <p className=" text-[19px]">Frontend Developer</p>
+          <p className="text-base mb-3">May 2025 – Present</p>
+          <ul className="list-disc text-[18px] text-primary/90 pl-6">
+            <li className="pl-2">
+                Currently working on developing a AI based product frontend using Ionic React.
+      Working collaboratively on repositories with senior developers via GitHub.
+            </li>
+            
+          </ul>
+        </div>
+        <div className="mb-9">
           <h3 className="font-semibold">ByteUp AI</h3>
           <p className=" text-[19px]">Frontend Developer</p>
-          <p className="text-base mb-3">Aug 2024 – Present</p>
+          <p className="text-base mb-3">Aug 2024 – April 2025</p>
           <ul className="list-disc text-[18px] text-primary/90 pl-6">
             <li className="pl-2">
               Currently developing an AI-powered chatbot product website and
