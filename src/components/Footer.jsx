@@ -100,9 +100,10 @@ const Footer = () => {
       <div className="w-full mt-10 bg-secondary/20 h-[1px]"></div>
 
       {/* Copyright */}
-      <p className="text-center mt-10 text-secondary/40">
-        &#169; 2024 | By Vaishnavi Shelke
-      </p>
+     <p className="text-center mt-10 text-secondary/40">
+  &#169; {new Date().getFullYear()} | By Vaishnavi Shelke
+</p>
+
     </div>
   );
 };
