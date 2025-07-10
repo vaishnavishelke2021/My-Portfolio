@@ -18,18 +18,18 @@ export const blogs = [
   {
     id: 3,
     image:
-      "https://miro.medium.com/v2/resize:fit:828/format:webp/1*4PBnkSh6KPn72kKuLjJ88w.jpeg",
-    date: "June 26, 2024",
-    title: "A Guide for Building a Server Using  Express.js",
-    link: "https://medium.com/@vaishnavi_shelke/building-a-server-using-express-js-2eff4ac6f14f",
+      "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*z0NhbpRIOZyVWD-tx_2zOA.png",
+    date: "April 01, 2025",
+    title: "Inter-VPC Peering Connection in AWS Across Regions",
+    link: "https://medium.com/@vaishnavi_shelke/inter-vpc-peering-connection-in-aws-across-regions-458937df28bb",
   },
   {
     id: 4,
     image:
-      "https://miro.medium.com/v2/resize:fit:828/format:webp/1*MOzvLUDGTKBDgVKxYiD1Xw.jpeg",
-    date: "June 25, 2024",
-    title: "A Comprehensive Guide to React Router Hooks",
-    link: "https://medium.com/@vaishnavi_shelke/a-guide-to-react-router-hooks-94770b9948ac",
+      "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*5qe17ryJhb58_trm6TEi_Q.png",
+    date: "June 15, 2025",
+    title: "Creating and Managing Docker Containers",
+    link: "https://medium.com/@vaishnavi_shelke/docker-creating-and-managing-containers-4815f8779f5c",
   },
   //   {
   //     id: 5,
